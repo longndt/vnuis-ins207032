@@ -6,6 +6,9 @@ using namespace std;
 class Base {
 private:
     int pvt = 1;
+    int getProt() {
+        return prot;
+    }
 
 protected:
     int prot = 2;
@@ -22,9 +25,7 @@ public:
 class PublicDerived : public Base {
 public:
     // function to access protected member from Base
-    int getProt() {
-        return prot;
-    }
+    
 };
 
 int main() {

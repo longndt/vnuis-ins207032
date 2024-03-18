@@ -14,6 +14,12 @@ public:
     void sleep() {
         cout << "I can sleep!" << endl;
     }
+
+protected:
+    int age;
+    void test() {
+        cout << "Something here" << endl;
+    }
 };
 
 // derived class
@@ -35,6 +41,8 @@ int main() {
 
     // Calling member of the derived class
     dog1.bark();
+    
+    dog1.age = 10;
 
     return 0;
 }
