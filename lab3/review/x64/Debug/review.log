@@ -1,0 +1,5 @@
+﻿  conditional.cpp
+  review.cpp
+  Generating Code...
+review.obj : error LNK2005: main already defined in conditional.obj
+D:\workspace\VNUIS-INS2073\vnuis-ins207302\lab3\x64\Debug\review.exe : fatal error LNK1169: one or more multiply defined symbols found
