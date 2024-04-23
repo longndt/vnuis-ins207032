@@ -7,5 +7,7 @@ int main()
 
 	char s[] = "GeeksforGeeks";
 	cout << s << endl;
+	char vnu[] = "Vietnam National University";
+	cout << vnu;
 	return 0;
 }
