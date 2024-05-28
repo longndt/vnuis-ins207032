@@ -8,20 +8,20 @@ struct Data {
 };
 
 int main() {
-    Data data[5];
+    Data data[6];
 
     // Open a binary file for reading
     std::ifstream inFile("D:\\data.bin", std::ios::binary);
 
     if (inFile.is_open()) {
         // Read each Data structure from the binary file
-        for (int i = 0; i < 5; ++i) {
+        for (int i = 0; i < 6; ++i) {
             inFile.read(reinterpret_cast<char*>(&data[i]), sizeof(Data));
         }
         inFile.close();
 
         // Output the data
-        for (int i = 0; i < 5; ++i) {
+        for (int i = 0; i < 6; ++i) {
             std::cout << "ID: " << data[i].id << std::endl;
             std::cout << "Name: " << data[i].name << std::endl;
             std::cout << "Score: " << data[i].score << std::endl;

@@ -8,12 +8,13 @@ struct Data {
 };
 
 int main() {
-    Data data[5] = {
+    Data data[6] = {
         {1, "Alice", 95.5},
         {2, "Bob", 88.0},
         {3, "Charlie", 92.3},
         {4, "Diana", 85.4},
-        {5, "Eve", 90.2}
+        {5, "Eve", 90.2},
+        {6, "Test", 99.9}
     };
 
     // Open a binary file for writing
@@ -21,7 +22,7 @@ int main() {
 
     if (outFile.is_open()) {
         // Write each Data structure to the binary file
-        for (int i = 0; i < 5; ++i) {
+        for (int i = 0; i < 6; ++i) {
             outFile.write(reinterpret_cast<char*>(&data[i]), sizeof(Data));
         }
         outFile.close();

@@ -29,7 +29,7 @@ void readFile() {
 }
 
 int main() {
-    writeFile(); // Call function to write to a file
+    //writeFile(); // Call function to write to a file
     readFile();  // Call function to read from the file
     return 0;
 }

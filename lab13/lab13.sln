@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileHandling3", "FileHandli
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileHandling4", "FileHandling4\FileHandling4.vcxproj", "{B60D7034-7DAC-403C-B00D-452AE6A6AB1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{B60D7034-7DAC-403C-B00D-452AE6A6AB1C}.Release|x64.Build.0 = Release|x64
 		{B60D7034-7DAC-403C-B00D-452AE6A6AB1C}.Release|x86.ActiveCfg = Release|Win32
 		{B60D7034-7DAC-403C-B00D-452AE6A6AB1C}.Release|x86.Build.0 = Release|Win32
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Debug|x64.ActiveCfg = Debug|x64
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Debug|x64.Build.0 = Debug|x64
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Debug|x86.Build.0 = Debug|Win32
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Release|x64.ActiveCfg = Release|x64
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Release|x64.Build.0 = Release|x64
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Release|x86.ActiveCfg = Release|Win32
+		{8A04ADA5-3AA6-4FA4-84B1-406CC8247830}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
